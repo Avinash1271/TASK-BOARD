@@ -1,0 +1,244 @@
+/* login and signup page styling */
+
+.main {
+  color: white;
+  text-align: center;
+  background-color: #254077;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input{
+  margin: 1%;
+}
+.custom-style{
+  width: 400px;
+}
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: white !important;
+}
+.rememberAndForget{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+.check{
+  display: flex;
+}
+.remember{
+  margin-top:20px ;
+}
+
+.btn{
+  margin-top: 4%;
+}
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+/* task-board styling */
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #254077;
+}
+.logo-img{
+  height: 100px;
+  width: 130px;
+}
+h1{
+  color: white;
+  align-self: center;
+}
+.logo-container{
+  display: flex;
+}
+.random-image{
+  margin-right: 3%;
+  align-self: center;
+}
+.random-image-inner{
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.add-list-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* list item component */
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-item {
+  margin: 3%;
+  width: 300px;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.list-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-item-title {
+  margin: 0;
+  color: #254077;
+}
+h4{
+  font-weight: 500;
+  font-size: larger;
+  color: #254077;
+}
+
+.list-item-icon {
+  font-size: 24px;
+  color: #555;
+}
+.list-item-content {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.task{
+  display: flex;
+  flex-direction: col;
+  justify-content: space-between;
+}
+h4{
+  margin-left: 5px;
+}
+.task-left{
+  display: flex;
+}
+.edit-icon{
+  align-self: center;
+  font-size: larger;
+  color: #254077;
+  cursor: pointer;
+}
+.completed{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  align-self: center;
+  border: 1px solid #254077;
+  background-color: transparent;
+  cursor: pointer;
+}
+.completed-task,.green{
+  color: green;
+}
+
+.edit-dialog-content {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.edit-dialog-task-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.add-details {
+  background-color: #eaeef7;
+  margin-bottom: 10px;
+}
+
+.save-button {
+  margin-top: 10px;
+}
+.date-details{
+  display: flex;
+  flex-direction: column;
+}
+.date{
+  align-self: center;
+  font-weight: bold;
+  color: #254077;
+  background-color: #eaeef7;
+  padding: 8px;
+  margin-top: 5px;
+  height: 20px;
+  width: 90px;
+  margin-left: -20%;
+}
+.details{
+  margin-left: 16%;
+  color: #5b719d;
+  padding: 8px;
+  margin-top: 5px;
+  align-self: center;
+}
+
+/* src/styles.css */
+.weather-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.weather-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.day-forecast {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day-forecast img {
+  width: 40px;
+  height: 40px;
+}
+
+.day-forecast p {
+  font-size: 18px;
+}
+
+#refresh-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#refresh-button:hover {
+  background-color: #0056b3;
+}
